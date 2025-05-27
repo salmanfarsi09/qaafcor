@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qaaf Corner - Custom Islamic Clothing</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Language Selector -->
+    <div class="language-selector">
+        <select id="language-select">
+            <option value="en">English</option>
+            <option value="bn">বাংলা</option>
+            <option value="ar">العربية</option>
+            <option value="ur">اردو</option>
+        </select>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Qaaf Corner Logo">
+            <h1>Qaaf Corner</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active" data-translate="home">Home</a></li>
+                <li><a href="shop.html" data-translate="shop">Shop</a></li>
+                <li><a href="tailors.html" data-translate="tailors">Tailors</a></li>
+                <li><a href="how-it-works.html" data-translate="how_it_works">How It Works</a></li>
+                <li><a href="support.html" data-translate="support">Support</a></li>
+            </ul>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2 data-translate="hero_title">Custom Islamic Wear Delivered to Your Doorstep</h2>
+            <p data-translate="hero_subtitle">Halal-compliant, modest clothing tailored to your measurements</p>
+            <div class="cta-buttons">
+                <a href="shop.html" class="btn primary" data-translate="start_order">Start Custom Order</a>
+                <a href="tailors.html" class="btn secondary" data-translate="find_tailor">Find a Tailor Near You</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Categories -->
+    <section class="featured-categories">
+        <h2 data-translate="featured_categories">Our Featured Categories</h2>
+        <div class="categories-grid">
+            <div class="category-card">
+                <img src="images/panjabi.jpg" alt="Panjabi">
+                <h3 data-translate="panjabi">Panjabi</h3>
+                <a href="shop.html?category=panjabi" class="btn small" data-translate="shop_now">Shop Now</a>
+            </div>
+            <div class="category-card">
+                <img src="images/jubba.jpg" alt="Jubba">
+                <h3 data-translate="jubba">Jubba</h3>
+                <a href="shop.html?category=jubba" class="btn small" data-translate="shop_now">Shop Now</a>
+            </div>
+            <div class="category-card">
+                <img src="images/burqa.jpg" alt="Burqa">
+                <h3 data-translate="burqa">Burqa</h3>
+                <a href="shop.html?category=burqa" class="btn small" data-translate="shop_now">Shop Now</a>
+            </div>
+            <div class="category-card">
+                <img src="images/salwar-kameez.jpg" alt="Salwar Kameez">
+                <h3 data-translate="salwar_kameez">Salwar Kameez</h3>
+                <a href="shop.html?category=salwar-kameez" class="btn small" data-translate="shop_now">Shop Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works">
+        <h2 data-translate="how_it_works_title">How Qaaf Corner Works</h2>
+        <div class="steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                <h3 data-translate="step1_title">Choose Your Design</h3>
+                <p data-translate="step1_desc">Select from our collection or customize your own Islamic clothing design.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <h3 data-translate="step2_title">Provide Measurements</h3>
+                <p data-translate="step2_desc">Enter your measurements or schedule a video call with a tailor.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <h3 data-translate="step3_title">Select Fabric & Tailor</h3>
+                <p data-translate="step3_desc">Choose your preferred fabric and a skilled tailor near you.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <h3 data-translate="step4_title">Receive Your Order</h3>
+                <p data-translate="step4_desc">Get your custom-made Islamic clothing delivered to your doorstep.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <h2 data-translate="testimonials_title">What Our Customers Say</h2>
+        <div class="testimonial-slider">
+            <div class="testimonial active">
+                <p class="quote" data-translate="testimonial1_quote">"As an Imam, I appreciate the modest designs and halal approach. The Jubba fits perfectly!"</p>
+                <p class="author">- Mufti Abdullah, Dhaka</p>
+            </div>
+            <div class="testimonial">
+                <p class="quote" data-translate="testimonial2_quote">"Finally a platform that understands our needs for Islamic clothing. The quality is excellent."</p>
+                <p class="author">- Sister Aisha, Chittagong</p>
+            </div>
+            <div class="testimonial">
+                <p class="quote" data-translate="testimonial3_quote">"The video measurement service was very helpful. My Panjabi fits better than store-bought ones."</p>
+                <p class="author">- Brother Ismail, Sylhet</p>
+            </div>
+        </div>
+        <div class="slider-controls">
+            <button class="prev"><i class="fas fa-chevron-left"></i></button>
+            <button class="next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <h2 data-translate="cta_title">Ready for Your Perfect Islamic Outfit?</h2>
+        <p data-translate="cta_subtitle">Join thousands of satisfied customers who trust Qaaf Corner for their modest fashion needs.</p>
+        <a href="shop.html" class="btn primary" data-translate="start_order">Start Custom Order</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3 data-translate="about_us">About Qaaf Corner</h3>
+                <p data-translate="about_desc">Empowering the Muslim community with halal-compliant, custom-tailored Islamic clothing delivered to your doorstep.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-section links">
+                <h3 data-translate="quick_links">Quick Links</h3>
+                <ul>
+                    <li><a href="index.html" data-translate="home">Home</a></li>
+                    <li><a href="shop.html" data-translate="shop">Shop</a></li>
+                    <li><a href="tailors.html" data-translate="tailors">Tailors</a></li>
+                    <li><a href="how-it-works.html" data-translate="how_it_works">How It Works</a></li>
+                    <li><a href="support.html" data-translate="support">Support</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h3 data-translate="contact_us">Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> <span data-translate="address">123 Islamic Street, Dhaka, Bangladesh</span></p>
+                <p><i class="fas fa-phone"></i> <span data-translate="phone">+880 1234 567890</span></p>
+                <p><i class="fas fa-envelope"></i> <span>support@qaafcorner.com</span></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-translate="copyright">&copy; 2023 Qaaf Corner. All Rights Reserved.</p>
+            <div class="payment-methods">
+                <img src="images/bkash.png" alt="bKash">
+                <img src="images/nagad.png" alt="Nagad">
+                <img src="images/rocket.png" alt="Rocket">
+                <img src="images/visa.png" alt="Visa">
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Islamic Clothing | Qaaf Corner</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Language Selector -->
+    <div class="language-selector">
+        <select id="language-select">
+            <option value="en">English</option>
+            <option value="bn">বাংলা</option>
+            <option value="ar">العربية</option>
+            <option value="ur">اردو</option>
+        </select>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Qaaf Corner Logo">
+            <h1>Qaaf Corner</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" data-translate="home">Home</a></li>
+                <li><a href="shop.html" class="active" data-translate="shop">Shop</a></li>
+                <li><a href="tailors.html" data-translate="tailors">Tailors</a></li>
+                <li><a href="how-it-works.html" data-translate="how_it_works">How It Works</a></li>
+                <li><a href="support.html" data-translate="support">Support</a></li>
+            </ul>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Product Customization -->
+    <section class="product-customization">
+        <div class="customization-steps">
+            <div class="step active" data-step="1">
+                <span data-translate="step1">1. Select Type</span>
+            </div>
+            <div class="step" data-step="2">
+                <span data-translate="step2">2. Customize</span>
+            </div>
+            <div class="step" data-step="3">
+                <span data-translate="step3">3. Measurements</span>
+            </div>
+            <div class="step" data-step="4">
+                <span data-translate="step4">4. Checkout</span>
+            </div>
+        </div>
+
+        <div class="customization-content">
+            <!-- Step 1: Select Type -->
+            <div class="step-content active" id="step-1">
+                <h2 data-translate="select_type">Select Clothing Type</h2>
+                <div class="type-selection">
+                    <div class="gender-selection">
+                        <h3 data-translate="select_gender">Select Gender & Age</h3>
+                        <div class="gender-options">
+                            <button class="gender-option active" data-gender="men" data-translate="men">Men</button>
+                            <button class="gender-option" data-gender="women" data-translate="women">Women</button>
+                            <button class="gender-option" data-gender="children" data-translate="children">Children</button>
+                        </div>
+                    </div>
+
+                    <div class="category-selection">
+                        <h3 data-translate="select_category">Select Category</h3>
+                        <div class="category-options">
+                            <div class="category-option" data-category="panjabi">
+                                <img src="images/panjabi-icon.png" alt="Panjabi">
+                                <span data-translate="panjabi">Panjabi</span>
+                            </div>
+                            <div class="category-option" data-category="jubba">
+                                <img src="images/jubba-icon.png" alt="Jubba">
+                                <span data-translate="jubba">Jubba</span>
+                            </div>
+                            <div class="category-option" data-category="burqa">
+                                <img src="images/burqa-icon.png" alt="Burqa">
+                                <span data-translate="burqa">Burqa</span>
+                            </div>
+                            <div class="category-option" data-category="salwar-kameez">
+                                <img src="images/salwar-icon.png" alt="Salwar Kameez">
+                                <span data-translate="salwar_kameez">Salwar Kameez</span>
+                            </div>
+                            <div class="category-option" data-category="abaya">
+                                <img src="images/abaya-icon.png" alt="Abaya">
+                                <span data-translate="abaya">Abaya</span>
+                            </div>
+                            <div class="category-option" data-category="thobe">
+                                <img src="images/thobe-icon.png" alt="Thobe">
+                                <span data-translate="thobe">Thobe</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="step-navigation">
+                    <button class="btn next-step" data-translate="next">Next</button>
+                </div>
+            </div>
+
+            <!-- Step 2: Customize -->
+            <div class="step-content" id="step-2">
+                <h2 data-translate="customize_design">Customize Your Design</h2>
+                <div class="customization-panel">
+                    <div class="product-preview">
+                        <img src="images/panjabi-default.jpg" alt="Product Preview" id="product-preview">
+                        <button class="btn small" id="upload-design" data-translate="upload_design">Upload Your Design</button>
+                        <input type="file" id="design-upload" accept="image/*" style="display: none;">
+                    </div>
+                    <div class="customization-options">
+                        <div class="option-group">
+                            <h3 data-translate="fabric">Fabric</h3>
+                            <select id="fabric-select">
+                                <option value="cotton" data-translate="cotton">Cotton</option>
+                                <option value="linen" data-translate="linen">Linen</option>
+                                <option value="mixed" data-translate="mixed">Mixed</option>
+                                <option value="silk" data-translate="silk">Silk</option>
+                            </select>
+                        </div>
+
+                        <div class="option-group">
+                            <h3 data-translate="color">Color</h3>
+                            <div class="color-options">
+                                <div class="color-option" style="background-color: #FFFFFF;" data-color="#FFFFFF"></div>
+                                <div class="color-option" style="background-color: #000000;" data-color="#000000"></div>
+                                <div class="color-option" style="background-color: #0A5C36;" data-color="#0A5C36"></div>
+                                <div class="color-option" style="background-color: #3A5FCD;" data-color="#3A5FCD"></div>
+                                <div class="color-option" style="background-color: #8B0000;" data-color="#8B0000"></div>
+                                <div class="color-option" style="background-color: #DAA520;" data-color="#DAA520"></div>
+                            </div>
+                            <div class="custom-color">
+                                <label for="custom-color" data-translate="custom_color">Or enter HEX code:</label>
+                                <input type="text" id="custom-color" placeholder="#RRGGBB">
+                            </div>
+                        </div>
+
+                        <div class="option-group">
+                            <h3 data-translate="collar_style">Collar Style</h3>
+                            <div class="style-options">
+                                <div class="style-option" data-style="standard">
+                                    <img src="images/collar-standard.jpg" alt="Standard Collar">
+                                    <span data-translate="standard">Standard</span>
+                                </div>
+                                <div class="style-option" data-style="mandarin">
+                                    <img src="images/collar-mandarin.jpg" alt="Mandarin Collar">
+                                    <span data-translate="mandarin">Mandarin</span>
+                                </div>
+                                <div class="style-option" data-style="band">
+                                    <img src="images/collar-band.jpg" alt="Band Collar">
+                                    <span data-translate="band">Band</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="option-group">
+                            <h3 data-translate="embroidery">Embroidery</h3>
+                            <div class="embroidery-options">
+                                <label>
+                                    <input type="radio" name="embroidery" value="none" checked>
+                                    <span data-translate="none">None</span>
+                                </label>
+                                <label>
+                                    <input type="radio" name="embroidery" value="simple">
+                                    <span data-translate="simple">Simple</span>
+                                </label>
+                                <label>
+                                    <input type="radio" name="embroidery" value="detailed">
+                                    <span data-translate="detailed">Detailed</span>
+                                </label>
+                            </div>
+                            <div class="embroidery-custom" style="display: none;">
+                                <label for="embroidery-design" data-translate="upload_embroidery">Upload embroidery design:</label>
+                                <input type="file" id="embroidery-design" accept="image/*">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="step-navigation">
+                    <button class="btn prev-step" data-translate="previous">Previous</button>
+                    <button class="btn next-step" data-translate="next">Next</button>
+                </div>
+            </div>
+
+            <!-- Step 3: Measurements -->
+            <div class="step-content" id="step-3">
+                <h2 data-translate="provide_measurements">Provide Your Measurements</h2>
+                <div class="measurement-options">
+                    <div class="measurement-method">
+                        <h3 data-translate="measurement_method">Measurement Method</h3>
+                        <div class="method-options">
+                            <div class="method-option active" data-method="manual">
+                                <i class="fas fa-ruler"></i>
+                                <span data-translate="enter_manually">Enter Manually</span>
+                            </div>
+                            <div class="method-option" data-method="video">
+                                <i class="fas fa-video"></i>
+                                <span data-translate="video_call">Video Call with Tailor</span>
+                            </div>
+                            <div class="method-option" data-method="existing">
+                                <i class="fas fa-user"></i>
+                                <span data-translate="use_existing">Use Existing Profile</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="measurement-form">
+                        <h3 data-translate="required_measurements">Required Measurements (in cm)</h3>
+                        <div class="measurement-fields">
+                            <div class="measurement-field">
+                                <label for="chest" data-translate="chest">Chest:</label>
+                                <input type="number" id="chest" min="20" max="150">
+                            </div>
+                            <div class="measurement-field">
+                                <label for="waist" data-translate="waist">Waist:</label>
+                                <input type="number" id="waist" min="20" max="150">
+                            </div>
+                            <div class="measurement-field">
+                                <label for="hips" data-translate="hips">Hips:</label>
+                                <input type="number" id="hips" min="20" max="150">
+                            </div>
+                            <div class="measurement-field">
+                                <label for="length" data-translate="length">Length:</label>
+                                <input type="number" id="length" min="20" max="200">
+                            </div>
+                            <div class="measurement-field">
+                                <label for="sleeve" data-translate="sleeve">Sleeve Length:</label>
+                                <input type="number" id="sleeve" min="10" max="100">
+                            </div>
+                            <div class="measurement-field">
+                                <label for="shoulder" data-translate="shoulder">Shoulder Width:</label>
+                                <input type="number" id="shoulder" min="20" max="80">
+                            </div>
+                        </div>
+                        <div class="measurement-help">
+                            <a href="#" data-translate="how_to_measure">How to take measurements?</a>
+                            <div class="measurement-guide" style="display: none;">
+                                <img src="images/measurement-guide.jpg" alt="Measurement Guide">
+                                <p data-translate="measurement_instructions">Follow these instructions to get accurate measurements...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="video-call-scheduler" style="display: none;">
+                        <h3 data-translate="schedule_video_call">Schedule Video Call with Tailor</h3>
+                        <div class="scheduler-form">
+                            <div class="form-group">
+                                <label for="call-date" data-translate="date">Date:</label>
+                                <input type="date" id="call-date">
+                            </div>
+                            <div class="form-group">
+                                <label for="call-time" data-translate="time">Time:</label>
+                                <input type="time" id="call-time">
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-number" data-translate="contact_number">Contact Number:</label>
+                                <input type="tel" id="contact-number" placeholder="+880">
+                            </div>
+                            <p class="note" data-translate="video_call_note">Our tailor will call you at the scheduled time to take your measurements via video call.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="step-navigation">
+                    <button class="btn prev-step" data-translate="previous">Previous</button>
+                    <button class="btn next-step" data-translate="next">Next</button>
+                </div>
+            </div>
+
+            <!-- Step 4: Checkout -->
+            <div class="step-content" id="step-4">
+                <h2 data-translate="review_order">Review Your Order</h2>
+                <div class="order-summary">
+                    <div class="order-details">
+                        <h3 data-translate="order_details">Order Details</h3>
+                        <div class="order-item">
+                            <img src="images/panjabi-default.jpg" alt="Product" id="order-product-image">
+                            <div class="item-details">
+                                <h4 id="order-product-name">Men's Panjabi</h4>
+                                <p id="order-fabric">Fabric: Cotton</p>
+                                <p id="order-color">Color: White</p>
+                                <p id="order-style">Style: Standard Collar</p>
+                                <p id="order-embroidery">Embroidery: None</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="delivery-options">
+                        <h3 data-translate="delivery_options">Delivery Options</h3>
+                        <div class="delivery-method">
+                            <label>
+                                <input type="radio" name="delivery" value="home" checked>
+                                <span data-translate="home_delivery">Home Delivery</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="delivery" value="pickup">
+                                <span data-translate="store_pickup">Store Pickup</span>
+                            </label>
+                        </div>
+                        <div class="address-form">
+                            <div class="form-group">
+                                <label for="full-name" data-translate="full_name">Full Name:</label>
+                                <input type="text" id="full-name">
+                            </div>
+                            <div class="form-group">
+                                <label for="address" data-translate="address">Address:</label>
+                                <textarea id="address"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="city" data-translate="city">City:</label>
+                                <input type="text" id="city">
+                            </div>
+                            <div class="form-group">
+                                <label for="zip" data-translate="zip">ZIP Code:</label>
+                                <input type="text" id="zip">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone" data-translate="phone">Phone Number:</label>
+                                <input type="tel" id="phone">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="payment-summary">
+                        <h3 data-translate="payment_summary">Payment Summary</h3>
+                        <div class="price-breakdown">
+                            <div class="price-row">
+                                <span data-translate="base_price">Base Price:</span>
+                                <span id="base-price">৳1200</span>
+                            </div>
+                            <div class="price-row">
+                                <span data-translate="tailor_fee">Tailor Fee:</span>
+                                <span id="tailor-fee">৳300</span>
+                            </div>
+                            <div class="price-row">
+                                <span data-translate="delivery_fee">Delivery Fee:</span>
+                                <span id="delivery-fee">৳100</span>
+                            </div>
+                            <div class="price-row">
+                                <span data-translate="service_fee">Service Fee:</span>
+                                <span id="service-fee">৳50</span>
+                            </div>
+                            <div class="price-row total">
+                                <span data-translate="total">Total:</span>
+                                <span id="total-price">৳1650</span>
+                            </div>
+                        </div>
+
+                        <div class="payment-methods">
+                            <h4 data-translate="payment_method">Payment Method</h4>
+                            <div class="method-options">
+                                <div class="method-option">
+                                    <input type="radio" name="payment" id="bkash" value="bkash">
+                                    <label for="bkash">
+                                        <img src="images/bkash.png" alt="bKash">
+                                    </label>
+                                </div>
+                                <div class="method-option">
+                                    <input type="radio" name="payment" id="nagad" value="nagad">
+                                    <label for="nagad">
+                                        <img src="images/nagad.png" alt="Nagad">
+                                    </label>
+                                </div>
+                                <div class="method-option">
+                                    <input type="radio" name="payment" id="rocket" value="rocket">
+                                    <label for="rocket">
+                                        <img src="images/rocket.png" alt="Rocket">
+                                    </label>
+                                </div>
+                                <div class="method-option">
+                                    <input type="radio" name="payment" id="card" value="card">
+                                    <label for="card">
+                                        <img src="images/visa.png" alt="Card">
+                                    </label>
+                                </div>
+                                <div class="method-option">
+                                    <input type="radio" name="payment" id="cod" value="cod">
+                                    <label for="cod" data-translate="cod">Cash on Delivery</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="terms">
+                            <label>
+                                <input type="checkbox" id="agree-terms">
+                                <span data-translate="agree_terms">I agree to the Terms & Conditions and Privacy Policy</span>
+                            </label>
+                        </div>
+
+                        <button class="btn primary" id="place-order" data-translate="place_order">Place Order</button>
+                    </div>
+                </div>
+                <div class="step-navigation">
+                    <button class="btn prev-step" data-translate="previous">Previous</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3 data-translate="about_us">About Qaaf Corner</h3>
+                <p data-translate="about_desc">Empowering the Muslim community with halal-compliant, custom-tailored Islamic clothing delivered to your doorstep.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-section links">
+                <h3 data-translate="quick_links">Quick Links</h3>
+                <ul>
+                    <li><a href="index.html" data-translate="home">Home</a></li>
+                    <li><a href="shop.html" data-translate="shop">Shop</a></li>
+                    <li><a href="tailors.html" data-translate="tailors">Tailors</a></li>
+                    <li><a href="how-it-works.html" data-translate="how_it_works">How It Works</a></li>
+                    <li><a href="support.html" data-translate="support">Support</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h3 data-translate="contact_us">Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> <span data-translate="address">123 Islamic Street, Dhaka, Bangladesh</span></p>
+                <p><i class="fas fa-phone"></i> <span data-translate="phone">+880 1234 567890</span></p>
+                <p><i class="fas fa-envelope"></i> <span>support@qaafcorner.com</span></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-translate="copyright">&copy; 2023 Qaaf Corner. All Rights Reserved.</p>
+            <div class="payment-methods">
+                <img src="images/bkash.png" alt="bKash">
+                <img src="images/nagad.png" alt="Nagad">
+                <img src="images/rocket.png" alt="Rocket">
+                <img src="images/visa.png" alt="Visa">
+            </div>
+        </div>
+    </footer>
+
+    <!-- Order Confirmation Modal -->
+    <div class="modal" id="order-confirmation">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <div class="success-icon">
+                    <i class="fas fa-check-circle"></i>
+                </div>
+                <h2 data-translate="order_success">Order Placed Successfully!</h2>
+                <p data-translate="order_confirmation">Your order #QC12345 has been confirmed. We'll notify you when your item is ready.</p>
+                <div class="order-details">
+                    <p><strong data-translate="estimated_delivery">Estimated Delivery:</strong> <span id="delivery-date">15 November 2023</span></p>
+                    <p><strong data-translate="total_amount">Total Amount:</strong> <span id="confirmed-price">৳1650</span></p>
+                </div>
+                <div class="modal-actions">
+                    <a href="index.html" class="btn" data-translate="back_to_home">Back to Home</a>
+                    <a href="#" class="btn primary" data-translate="track_order">Track Order</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
